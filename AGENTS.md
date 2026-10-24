@@ -14,6 +14,6 @@ Single-context: one `GLOSSARY.md` and `docs/adr/` at the repo root. See `docs/ag
 
 ## Response language
 
-- Reply in Russian unless I explicitly ask otherwise.
+- Reply in Russian unless I explicitly ask otherwise. Ещё раз: диалог с пользователем на русском языке
 - Keep code, identifiers, file paths, shell commands, and log output exactly as they are.
 - Do not translate English technical terms inside code or documentation filenames.
