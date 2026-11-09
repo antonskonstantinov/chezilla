@@ -1,0 +1,6 @@
+.git
+.agents
+.scratch
+.tools
+**/__pycache__
+**/*.pyc

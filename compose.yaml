@@ -1,0 +1,8 @@
+services:
+  dev:
+    build: .
+    image: chezilla-dev
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: pytest -q

@@ -4,11 +4,21 @@ version = "0.1.0"
 requires-python = ">=3.10"
 description = "Советник по требованиям «Честного знака»"
 
+[project.optional-dependencies]
+dev = ["pytest>=8", "mypy>=1.11"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 
 [tool.mypy]
-python_version = "3.10"
+python_version = "3.12"
 strict = true
 mypy_path = "src"
 packages = ["chezilla"]
